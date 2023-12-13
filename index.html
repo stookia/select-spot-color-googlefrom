@@ -19,7 +19,7 @@
 	const color = localStorage.getItem('color'+ now);
       	const id = localStorage.getItem('id');
       	let use_url = url_vec[now];
-	    
+	consol.log(color);
 	use_url = use_url.replace("ID",id);
       	use_url = use_url.replace("color",color);
       	url.src = use_url;
