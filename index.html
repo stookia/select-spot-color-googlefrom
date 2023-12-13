@@ -20,8 +20,8 @@
       const id = localStorage.getItem('id');
       let use_url = url_vec[now];
 	    
-		  let use_url = use_url.replace('ID',id);
-      let use_url = use_url.replace('color',color);
+		  use_url = use_url.replace('ID',id);
+      use_url = use_url.replace('color',color);
       url.src = use_url;
 	  }
 	 
