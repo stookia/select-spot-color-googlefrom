@@ -20,10 +20,8 @@
       	const id = localStorage.getItem('id');
       	let use_url = url_vec[now];
 	color = "%23" + color.substring(1);
-	console.log(color);
 	use_url = use_url.replace("ID",id);
       	use_url = use_url.replace("color",color);
-	console.log(use_url);
       	url.src = use_url;
 	}
 	 
