@@ -39,6 +39,7 @@
       	use_url = use_url.replace("color",color);
       	url.src = use_url;
 	}
+	document.addEventListener('DOMContentLoaded',changeUrl());
 	 
 	var load = 0;
     document.getElementById('Gfrom').onload = function () {
@@ -50,8 +51,6 @@
         document.location = "https://stookia.github.io/color_basesite/";
       }
     }
-	
-    document.addEventListener('DOMContentLoaded',changeUrl());
   </script>
 </body>
 </html>
